@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin+Sketch');
+@import url('https://fonts.googleapis.com/css?family=Eater');
+@import url('https://fonts.googleapis.com/css?family=Secular+One');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
+body{
+    background-color: #eee;
+}
+
+#header{
+    position: fixed;
+    top: 0;
+    min-height: 75px;
+    /* padding: 0px 20px; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+}
+
+.logo{
+    width: 60vw;
+}
+
+.logo-photo{
+    display: inline;
+}
+
+.logo-text{
+    display: inline;  
+    font-family: 'Cabin Sketch', cursive;
+    vertical-align: top;
+}
+    
+
+nav ul{
+    width: 35vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+li{
+    list-style: none;
+}
+
+li a{
+    color: #000;
+    font-family: 'Eater', cursive;
+    text-decoration: none;
+}
+
+#section{
+    margin-top:50px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+@-webkit-keyframes typing { from { width: 0; } }
+@-webkit-keyframes blink-caret { 50% { border-color: transparent; } }
+
+h1{ 
+	font: bold 200% Consolas, Monaco, monospace;
+	border-right: .1em solid black;
+	width: 16.5em; 
+	width: 22ch;
+	margin: 2em 1em 1em;
+	white-space: nowrap;
+	overflow: hidden;
+	-webkit-animation: typing 7s steps(22, end) infinite,
+	blink-caret .5s step-end infinite alternate;
+}
+
+#submit{
+  padding: 0 20px;
+  height: 40px;
+  font-size: 1em;
+  font-weight: 900;
+  text-transform: uppercase;
+  border: 3px black solid;
+  border-radius: 4px;
+  background: transparent;
+  cursor: pointer;
+  background-color: white;
+}
+
+#submit:hover{
+    background-color:#eee;
+}
+
+#feature{
+    margin-top: 100px;
+}
+
+.grid{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.image{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    height: 125px;
+    width: 10vw;
+
+}
+
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 800px;
+    padding: 15px;
+}
+
+
+#how-it-works {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;   
+}
+
+iframe {
+    max-width: 560px;
+    width: 100%;
+}  
+
+.pricing{
+    margin-top:50px; 
+    display: flex;
+    flex-flow: row;
+    justify-content:center;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 23vw;
+    height: 50vh;
+    min-height: 300px; 
+    border: 1px black solid;
+    border-radius: 4px;
+    margin: 10px;
+}
+
+.card-head{
+    text-align: center;
+    background-color: lightgrey;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.card-text{
+    margin-top:20px; 
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.card-text  p{
+    font-size: 15px;
+}
+
+.card-btn{
+    text-align: center;
+}
+
+
+@media (max-width: 820px){
+
+
+#header{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    margin-left: -20px;
+}
+
+
+.logo{
+    text-align: center;
+}
+
+.logo-photo{
+padding: 0px 20px 0px 10px;
+}
+
+.logo-text{
+    padding:  0px 0px 0px 10px;
+}
+
+
+nav ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+#section{
+    margin-top:120px; 
+}
+
+.pricing{
+    margin-top:50px; 
+    display: flex;
+    flex-flow: column;
+    justify-content:center;
+    align-content: center;
+    text-align: center;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 23vw;
+    height: 50vh;
+    min-height: 300px; 
+    border: 1px black solid;
+    border-radius: 4px;
+    margin: 10px;
+    justify-content:center;
+}
+
+}
