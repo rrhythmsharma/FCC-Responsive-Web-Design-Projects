@@ -225,12 +225,17 @@ nav ul{
     align-content: center;
     width: 23vw;
     height: 50vh;
+    min-width: 300px;
     min-height: 300px; 
     border: 1px black solid;
     border-radius: 4px;
     margin: 10px;
     justify-content:center;
     align-content: center;
+}
+
+.content{
+    padding: 20px;
 }
 
 }
