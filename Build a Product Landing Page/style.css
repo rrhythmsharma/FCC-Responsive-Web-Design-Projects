@@ -230,6 +230,7 @@ nav ul{
     border-radius: 4px;
     margin: 10px;
     justify-content:center;
+    align-content: center;
 }
 
 }
