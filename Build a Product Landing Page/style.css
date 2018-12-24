@@ -8,7 +8,7 @@ body{
 }
 
 #header{
-    position: fixed;
+    /* position: fixed; */
     top: 0;
     min-height: 75px;
     /* padding: 0px 20px; */
@@ -221,7 +221,7 @@ nav ul{
 
 .card{
     display: flex;
-    flex-direction: column;
+   
     align-content: center;
     width: 23vw;
     height: 50vh;
