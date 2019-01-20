@@ -8,4 +8,6 @@ Build a Survey Form live-demo: https://codepen.io/rrhythmsharma/full/rojKmr
 
 Build a Product Landing Page live-demo: https://codepen.io/rrhythmsharma/full/xmrdzj
 
+Build a Technical Documentation Page live-demo: https://codepen.io/rrhythmsharma/full/zygyWO
+
 # handy pull request are accepted
