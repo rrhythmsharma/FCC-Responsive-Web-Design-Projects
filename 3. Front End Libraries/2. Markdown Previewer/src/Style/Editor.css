@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap');
+
+.textarea{
+    width: 95%;
+    resize: none;
+    border: none;
+    border: 1px solid #ccc ;
+    margin: 5px;
+    font-size: 1em;
+    font-family: 'Noto Sans KR', sans-serif;
+}
