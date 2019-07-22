@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
+import marked from 'marked';
 
-class MrakDownPreviewer extends Component {
+class MarkDownPreviewer extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -8,14 +9,19 @@ class MrakDownPreviewer extends Component {
     }
   }
 
+  getMarkdownText() {
+    let rawMarkup = marked(this.props.textareaValue, {sanitize: true});
+    return { __html: rawMarkup };
+  }
+
   render(){
     
     return (
       <React.Fragment>
-          <p>MrakDownPreviewer</p>
+          <div className="previewer" dangerouslySetInnerHTML={this.getMarkdownText()} />
       </React.Fragment>
     );
   }
 }
 
-export default MrakDownPreviewer;
+export default MarkDownPreviewer;

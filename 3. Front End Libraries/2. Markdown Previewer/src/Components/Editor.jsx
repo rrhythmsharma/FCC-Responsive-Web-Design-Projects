@@ -11,12 +11,14 @@ class Editor extends Component {
   render(){
     
     return (
-      <React.Fragment>
-          <p>Editor</p>
-          <textarea name="" id="" cols="36" rows="10" className="textarea">
+          <textarea
+            id="markdownEditor"
+            value={this.props.textareaValue}
+            placeholder="type something..... for markdown converter :)"
+            onChange={(event) => this.props.handleOnChange(event.target.value)}
+            cols="32" rows="35" className="textarea">
           </textarea>
-      </React.Fragment>
-    );
+      );
   }
 }
 
